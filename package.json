@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.15"
+  },
+  "scripts": {
+    "build": "npx tailwindcss -i ./config-tailwind/input.css -o ./styles/app-tailwind.css --watch"
+  },
+  "dependencies": {
+    "flowbite": "^2.5.2",
+    "swiper": "^11.2.1"
+  }
+}

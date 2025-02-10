@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en" class="font-pop-reg text-[10px] leading-[1.4] ">
+<head>
+    <meta name="robots" content="noindex">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Site</title>
+    <link rel="stylesheet" href="./styles/reset-normalize.css">
+    <link rel="stylesheet" href="./styles/grid.css">
+    <link rel="stylesheet" href="./styles/fonts.css">
+    <link rel="stylesheet" href="./styles/app-tailwind.css">
+    <link rel="stylesheet" href="./styles/app.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body class=""> 
+    <header class="header">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+                <div class="header__logo">
+                    <h1 class="main-logo text-main-color">AVT</h1>
+                </div>
+                <div class="nav">
+                    <ul class="inline-flex items-center gap-[45px] text-[16px] list-none xl:gap-[35px] lg:gap-[22px] no-underline font-pop-md ">
+                        <li class="nav-items"><a href="#" class="text-black nav-link">Home</a></li>
+                        <li class="nav-items"><a href="#" class="nav-link">About us</a></li>
+                        <li class="nav-items"><a href="#" class="nav-link">Resume</a></li>
+                        <li class="nav-items"><a href="#" class="nav-link">Service</a></li>
+                        <li class="nav-items"><a href="#" class="nav-link">Portfolio</a></li>
+                        <li class="nav-items"><a href="#" class="nav-link">Price</a></li>
+                        <li class="nav-items"><a href="#" class="nav-link">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="nav__mobile">
+                    <ul class="Mobile-nav-menu">
+                        <li class="Mobile-nav-items"><a href="#" class="Mobile-nav-link">Home</a></li>
+                        <li class="Mobile-nav-items"><a href="#" class="Mobile-nav-link">About us</a></li>
+                        <li class="Mobile-nav-items"><a href="#" class="Mobile-nav-link">Resume</a></li>
+                        <li class="Mobile-nav-items"><a href="#" class="Mobile-nav-link">Service</a></li>
+                        <li class="Mobile-nav-items"><a href="#" class="Mobile-nav-link">Portfolio</a></li>
+                        <li class="Mobile-nav-items"><a href="#" class="Mobile-nav-link">Price</a></li>
+                        <li class="Mobile-nav-items"><a href="#" class="Mobile-nav-link">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="nav-mobile">
+                    <div class="nav-mobile--line line-anim-clicked"></div>
+                    <div class="nav-mobile--line line-anim-clicked"></div>
+                    <div class="nav-mobile--line line-anim-clicked"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="row home-contents flex justify-between flex-row mt-[100px] items-center lg:text-center lg:flex-col-reverse">
+                <div class="col-12 col-2xl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 home-details">
+                    <h3 class="my-10 font-pop-semi text-[25px] sm:text-[20px] ">
+                        Hello, IM <span class="font-pop-semi  text-secondry-text">Alimohammad Allahyari</span>
+                    </h3>
+                    <h2 class="text-[47px] sm:text-[4rem] mb-[15px] font-pop-bold">
+                        A Freelancer Team
+                    </h2>
+                    <p class="opacity home__caption">
+                        Freelancer Web/ Senior Front-end Developer/Founder of AVT Team
+                    </p>
+                    <div class="home__btns flex-wrap">
+                        <a class="btn home-HireBtn">
+                            Hire us
+                        </a>
+                        <a class="btn home-GetResumeBtn">
+                            Get Our Resumes
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-2xl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 home-set">
+                    <div class="bg-[length:630px] bg-[-166px] home__img"></div>
+                </div>
+
+            </div>
+            <div class="about flex flex-col items-center" id="#aboutus">
+                <div class="choose text-center flex items-center justify-center flex-col mb-[70px] ">
+                    <h2 class="font-pop-bold text-[48px] text-main-color">
+                        About Us
+                    </h2>
+                    <p class="font-pop-reg text-[1.6rem] text-main-color tracking-widest mt-[4px] mb-[26px]">
+                        Why Choose us?
+                    </p>
+                    <div class="bg-main-color h-[2px] w-[24rem] relative flex items-center justify-center ">
+                        <span class="inline-block absolute w-[39px] h-[11px] top-[-5.5px] bg-main-color rounded-3xl"></span>
+                    </div>
+                </div>
+                <div class="flex w-full shadow-Cshadow shadow-[0px_0px_59px] xl:flex-col">
+                    <img src="./images/about-us-man.jpg" alt="" class="w-[50%] object-cover object-[37%_0%] xl:w-full ">
+                    <div class="desc px-[4.2rem] pt-[5.5rem] pb-[6rem] flex flex-col items-start justify-between ">
+                        <div class="desc1">
+                            <h3 class="font-pop-semi text-[24px] mb-[17px] text-Ctext">Why Choose us ?</h3>
+                            <p class="opacity-95">Lorem ipsum, or lipsum as it is sometimes known, is dummy text 
+                                used in laying out print, graphic or web designs. The passage is 
+                                attributed to an unknown typesetter in the 15th century who is 
+                                thought to have scrambled parts of Cicero's De Finibus Bonorum 
+                                et Malorum for use in a type specimen book.
+                            </p>
+                        </div>
+                        <div class="mt-[72px] pb-[4rem]">
+                            <h4 class="font-pop-semi text-[18px] text-main-color mb-[14px]">
+                                Here is Few Features: 
+                            </h4>
+                           <ul class=" opacity-95 space-y-[12px] pl-[12px] font-pop-reg text-[1.6rem] text-Ctext ">
+                                <li class="relative before:content-[''] before:absolute before:w-[15px] before:h-[15px] before:bg-BGorange before:rounded-full before:left-0 before:top-[2px] pl-[3.2rem]">
+                                    Experienced Developers
+                                </li>
+                                <li class="relative before:content-[''] before:absolute before:w-[15px] before:h-[15px] before:bg-BGorange before:rounded-full before:left-0 before:top-[2px] pl-[3.2rem]">
+                                    High Performance, Secure...
+                                </li>
+                                <li class="relative before:content-[''] before:absolute before:w-[15px] before:h-[15px] before:bg-BGorange before:rounded-full before:left-0 before:top-[2px] pl-[3.2rem]">
+                                    Visual Communication Design
+                                </li>
+                                <li class="relative before:content-[''] before:absolute before:w-[15px] before:h-[15px] before:bg-BGorange before:rounded-full before:left-0 before:top-[2px] pl-[3.2rem]">
+                                    Interaction Design
+                                </li>
+                                <li class="relative before:content-[''] before:absolute before:w-[15px] before:h-[15px] before:bg-BGorange before:rounded-full before:left-0 before:top-[2px] pl-[3.2rem]">
+                                    Super Support
+                                </li>
+                            </ul>
+                            
+                        </div>
+                        <div class="flex gap-[2rem] flex-wrap">
+                            <a href="" class="btn ">Hire us</a>
+                            <a href="" class="btn bg-BGgreen">Get Our Resume</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pt-[100px]" id="#service">
+                <div class="text-center flex items-center justify-center flex-col mb-[70px]  ">
+                    <h2 class="font-pop-bold text-[48px] text-main-color">
+                        Services
+                    </h2>
+                    <p class="font-pop-reg text-[1.6rem] text-main-color tracking-widest mt-[4px] mb-[26px]">
+                        What We Provide You ?
+                    </p>
+                    <div class="bg-main-color h-[2px] w-[24rem] relative flex items-center justify-center ">
+                        <span class="inline-block absolute w-[39px] h-[11px] top-[-5.5px] bg-main-color rounded-3xl"></span>
+                    </div>
+                </div>
+                <div class="row flex gap-[3rem] justify-center items-center">
+                    
+                    <div class="w-[365px] col-12 col-2xl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 ssm:h-[31rem] ssm:pt-[35px] ssm:w-[31rem] flex flex-col justify-center items-center pt-[80px] mb-0 bg-[#803AFB] font-pop-bold text-[24px] text-white ">
+
+                            <svg class="w-full" xmlns="http://www.w3.org/2000/svg" width="69.016" height="64.973" viewBox="0 0 69.016 64.973">
+                                <path id="icon" d="M614.281,2598.986a2.03,2.03,0,0,1,0-4.061h6.631l1.348-4.061h24.48l1.348,4.061h6.631a2.03,2.03,0,0,1,0,4.061Zm-8.222-12.182a6.086,6.086,0,0,1-6.066-6.091v-2.03h69.016v2.03a6.2,6.2,0,0,1-6.2,6.091Zm62.949-12.181H656.741v-6.091a2.028,2.028,0,0,0-2.021-2.03H651.6a18.2,18.2,0,0,0-.719-1.74l2.21-2.22a2.04,2.04,0,0,0,0-2.871l-5.719-5.742a2.015,2.015,0,0,0-2.859,0l-2.211,2.22a18.518,18.518,0,0,0-1.732-.724v-3.136a2.029,2.029,0,0,0-2.022-2.03h-8.087a2.028,2.028,0,0,0-2.022,2.03v3.136a18.5,18.5,0,0,0-1.732.724l-2.211-2.22a2.013,2.013,0,0,0-2.859,0l-5.719,5.742a2.04,2.04,0,0,0,0,2.871l2.21,2.22a18.325,18.325,0,0,0-.719,1.74h-3.124a2.029,2.029,0,0,0-2.022,2.03v6.091H599.992V2540.1a6.085,6.085,0,0,1,6.066-6.09h56.749a6.219,6.219,0,0,1,4.355,1.785,5.982,5.982,0,0,1,1.846,4.3v34.518h0ZM648.65,2548.23a6.07,6.07,0,1,0,6.07-6.09A6.087,6.087,0,0,0,648.65,2548.23Zm-4.307,26.391a10.113,10.113,0,1,0-19.687,0H616.3v-4.061H618.9a2.024,2.024,0,0,0,1.958-1.523,14.019,14.019,0,0,1,1.5-3.619,2.039,2.039,0,0,0-.311-2.467l-1.84-1.848,2.859-2.871,1.84,1.848a2.008,2.008,0,0,0,2.459.312,13.861,13.861,0,0,1,3.6-1.5,2.031,2.031,0,0,0,1.516-1.968v-2.6h4.044v2.6a2.032,2.032,0,0,0,1.516,1.968,13.854,13.854,0,0,1,3.6,1.5,2.007,2.007,0,0,0,2.459-.312l1.84-1.848,2.859,2.871-1.839,1.848a2.039,2.039,0,0,0-.311,2.467,13.984,13.984,0,0,1,1.5,3.619,2.026,2.026,0,0,0,1.959,1.523H652.7v4.061Zm-15.517,0a6.067,6.067,0,1,1,11.347,0Z" transform="translate(-599.992 -2534.013)" fill="#fff"/>
+                            </svg>  
+    
+                            <span class="block py-[25px]">
+                                Web Design
+                            </span>
+                            <p class="font-pop-reg text-[16px] max-w-[262px] pb-[70px] text-center ssm:pb-[25px]">
+                                Lipsum as it is sometimes known
+                                is dummy text used in laying out print,
+    
+                            </p>
+                    </div>
+                    <div class="w-[365px] col-12 col-2xl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 ssm:h-[31rem] ssm:pt-[35px] ssm:w-[31rem] flex flex-col justify-center items-center pt-[80px] mb-0 bg-[#803AFB] font-pop-bold text-[24px] text-white ">
+    
+                            <svg class="w-full" xmlns="http://www.w3.org/2000/svg" width="69.016" height="64.973" viewBox="0 0 69.016 64.973">
+                                <path id="icon" d="M614.281,2598.986a2.03,2.03,0,0,1,0-4.061h6.631l1.348-4.061h24.48l1.348,4.061h6.631a2.03,2.03,0,0,1,0,4.061Zm-8.222-12.182a6.086,6.086,0,0,1-6.066-6.091v-2.03h69.016v2.03a6.2,6.2,0,0,1-6.2,6.091Zm62.949-12.181H656.741v-6.091a2.028,2.028,0,0,0-2.021-2.03H651.6a18.2,18.2,0,0,0-.719-1.74l2.21-2.22a2.04,2.04,0,0,0,0-2.871l-5.719-5.742a2.015,2.015,0,0,0-2.859,0l-2.211,2.22a18.518,18.518,0,0,0-1.732-.724v-3.136a2.029,2.029,0,0,0-2.022-2.03h-8.087a2.028,2.028,0,0,0-2.022,2.03v3.136a18.5,18.5,0,0,0-1.732.724l-2.211-2.22a2.013,2.013,0,0,0-2.859,0l-5.719,5.742a2.04,2.04,0,0,0,0,2.871l2.21,2.22a18.325,18.325,0,0,0-.719,1.74h-3.124a2.029,2.029,0,0,0-2.022,2.03v6.091H599.992V2540.1a6.085,6.085,0,0,1,6.066-6.09h56.749a6.219,6.219,0,0,1,4.355,1.785,5.982,5.982,0,0,1,1.846,4.3v34.518h0ZM648.65,2548.23a6.07,6.07,0,1,0,6.07-6.09A6.087,6.087,0,0,0,648.65,2548.23Zm-4.307,26.391a10.113,10.113,0,1,0-19.687,0H616.3v-4.061H618.9a2.024,2.024,0,0,0,1.958-1.523,14.019,14.019,0,0,1,1.5-3.619,2.039,2.039,0,0,0-.311-2.467l-1.84-1.848,2.859-2.871,1.84,1.848a2.008,2.008,0,0,0,2.459.312,13.861,13.861,0,0,1,3.6-1.5,2.031,2.031,0,0,0,1.516-1.968v-2.6h4.044v2.6a2.032,2.032,0,0,0,1.516,1.968,13.854,13.854,0,0,1,3.6,1.5,2.007,2.007,0,0,0,2.459-.312l1.84-1.848,2.859,2.871-1.839,1.848a2.039,2.039,0,0,0-.311,2.467,13.984,13.984,0,0,1,1.5,3.619,2.026,2.026,0,0,0,1.959,1.523H652.7v4.061Zm-15.517,0a6.067,6.067,0,1,1,11.347,0Z" transform="translate(-599.992 -2534.013)" fill="#fff"/>
+                            </svg>  
+    
+                            <span class="block py-[25px]">
+                                Web Design
+                            </span>
+                            <p class="font-pop-reg text-[16px] max-w-[262px] pb-[70px] text-center ssm:pb-[25px]">
+                                Lipsum as it is sometimes known
+                                is dummy text used in laying out print,
+    
+                            </p>
+                    </div>
+                    <div class="w-[365px] col-12 col-2xl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 ssm:h-[31rem] ssm:pt-[35px] ssm:w-[31rem] flex flex-col justify-center items-center pt-[80px] mb-0 bg-[#803AFB] font-pop-bold text-[24px] text-white ">
+    
+                            <svg class="w-full" xmlns="http://www.w3.org/2000/svg" width="69.016" height="64.973" viewBox="0 0 69.016 64.973">
+                                <path id="icon" d="M614.281,2598.986a2.03,2.03,0,0,1,0-4.061h6.631l1.348-4.061h24.48l1.348,4.061h6.631a2.03,2.03,0,0,1,0,4.061Zm-8.222-12.182a6.086,6.086,0,0,1-6.066-6.091v-2.03h69.016v2.03a6.2,6.2,0,0,1-6.2,6.091Zm62.949-12.181H656.741v-6.091a2.028,2.028,0,0,0-2.021-2.03H651.6a18.2,18.2,0,0,0-.719-1.74l2.21-2.22a2.04,2.04,0,0,0,0-2.871l-5.719-5.742a2.015,2.015,0,0,0-2.859,0l-2.211,2.22a18.518,18.518,0,0,0-1.732-.724v-3.136a2.029,2.029,0,0,0-2.022-2.03h-8.087a2.028,2.028,0,0,0-2.022,2.03v3.136a18.5,18.5,0,0,0-1.732.724l-2.211-2.22a2.013,2.013,0,0,0-2.859,0l-5.719,5.742a2.04,2.04,0,0,0,0,2.871l2.21,2.22a18.325,18.325,0,0,0-.719,1.74h-3.124a2.029,2.029,0,0,0-2.022,2.03v6.091H599.992V2540.1a6.085,6.085,0,0,1,6.066-6.09h56.749a6.219,6.219,0,0,1,4.355,1.785,5.982,5.982,0,0,1,1.846,4.3v34.518h0ZM648.65,2548.23a6.07,6.07,0,1,0,6.07-6.09A6.087,6.087,0,0,0,648.65,2548.23Zm-4.307,26.391a10.113,10.113,0,1,0-19.687,0H616.3v-4.061H618.9a2.024,2.024,0,0,0,1.958-1.523,14.019,14.019,0,0,1,1.5-3.619,2.039,2.039,0,0,0-.311-2.467l-1.84-1.848,2.859-2.871,1.84,1.848a2.008,2.008,0,0,0,2.459.312,13.861,13.861,0,0,1,3.6-1.5,2.031,2.031,0,0,0,1.516-1.968v-2.6h4.044v2.6a2.032,2.032,0,0,0,1.516,1.968,13.854,13.854,0,0,1,3.6,1.5,2.007,2.007,0,0,0,2.459-.312l1.84-1.848,2.859,2.871-1.839,1.848a2.039,2.039,0,0,0-.311,2.467,13.984,13.984,0,0,1,1.5,3.619,2.026,2.026,0,0,0,1.959,1.523H652.7v4.061Zm-15.517,0a6.067,6.067,0,1,1,11.347,0Z" transform="translate(-599.992 -2534.013)" fill="#fff"/>
+                            </svg>  
+    
+                            <span class="block py-[25px]">
+                                Web Design
+                            </span>
+                            <p class="font-pop-reg text-[16px] max-w-[262px] pb-[70px] text-center ssm:pb-[25px]">
+                                Lipsum as it is sometimes known
+                                is dummy text used in laying out print,
+    
+                            </p>
+                    </div>
+                    <div class="w-[365px] col-12 col-2xl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 ssm:h-[31rem] ssm:pt-[35px] ssm:w-[31rem] flex flex-col justify-center items-center pt-[80px] mb-0 bg-[#803AFB] font-pop-bold text-[24px] text-white ">
+    
+                            <svg class="w-full" xmlns="http://www.w3.org/2000/svg" width="69.016" height="64.973" viewBox="0 0 69.016 64.973">
+                                <path id="icon" d="M614.281,2598.986a2.03,2.03,0,0,1,0-4.061h6.631l1.348-4.061h24.48l1.348,4.061h6.631a2.03,2.03,0,0,1,0,4.061Zm-8.222-12.182a6.086,6.086,0,0,1-6.066-6.091v-2.03h69.016v2.03a6.2,6.2,0,0,1-6.2,6.091Zm62.949-12.181H656.741v-6.091a2.028,2.028,0,0,0-2.021-2.03H651.6a18.2,18.2,0,0,0-.719-1.74l2.21-2.22a2.04,2.04,0,0,0,0-2.871l-5.719-5.742a2.015,2.015,0,0,0-2.859,0l-2.211,2.22a18.518,18.518,0,0,0-1.732-.724v-3.136a2.029,2.029,0,0,0-2.022-2.03h-8.087a2.028,2.028,0,0,0-2.022,2.03v3.136a18.5,18.5,0,0,0-1.732.724l-2.211-2.22a2.013,2.013,0,0,0-2.859,0l-5.719,5.742a2.04,2.04,0,0,0,0,2.871l2.21,2.22a18.325,18.325,0,0,0-.719,1.74h-3.124a2.029,2.029,0,0,0-2.022,2.03v6.091H599.992V2540.1a6.085,6.085,0,0,1,6.066-6.09h56.749a6.219,6.219,0,0,1,4.355,1.785,5.982,5.982,0,0,1,1.846,4.3v34.518h0ZM648.65,2548.23a6.07,6.07,0,1,0,6.07-6.09A6.087,6.087,0,0,0,648.65,2548.23Zm-4.307,26.391a10.113,10.113,0,1,0-19.687,0H616.3v-4.061H618.9a2.024,2.024,0,0,0,1.958-1.523,14.019,14.019,0,0,1,1.5-3.619,2.039,2.039,0,0,0-.311-2.467l-1.84-1.848,2.859-2.871,1.84,1.848a2.008,2.008,0,0,0,2.459.312,13.861,13.861,0,0,1,3.6-1.5,2.031,2.031,0,0,0,1.516-1.968v-2.6h4.044v2.6a2.032,2.032,0,0,0,1.516,1.968,13.854,13.854,0,0,1,3.6,1.5,2.007,2.007,0,0,0,2.459-.312l1.84-1.848,2.859,2.871-1.839,1.848a2.039,2.039,0,0,0-.311,2.467,13.984,13.984,0,0,1,1.5,3.619,2.026,2.026,0,0,0,1.959,1.523H652.7v4.061Zm-15.517,0a6.067,6.067,0,1,1,11.347,0Z" transform="translate(-599.992 -2534.013)" fill="#fff"/>
+                            </svg>  
+    
+                            <span class="block py-[25px]">
+                                Web Design
+                            </span>
+                            <p class="font-pop-reg text-[16px] max-w-[262px] pb-[70px] text-center ssm:pb-[25px]">
+                                Lipsum as it is sometimes known
+                                is dummy text used in laying out print,
+    
+                            </p>
+                    </div>
+                    <div class="w-[365px] col-12 col-2xl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 ssm:h-[31rem] ssm:pt-[35px] ssm:w-[31rem] flex flex-col justify-center items-center pt-[80px] mb-0 bg-[#803AFB] font-pop-bold text-[24px] text-white ">
+    
+                            <svg class="w-full" xmlns="http://www.w3.org/2000/svg" width="69.016" height="64.973" viewBox="0 0 69.016 64.973">
+                                <path id="icon" d="M614.281,2598.986a2.03,2.03,0,0,1,0-4.061h6.631l1.348-4.061h24.48l1.348,4.061h6.631a2.03,2.03,0,0,1,0,4.061Zm-8.222-12.182a6.086,6.086,0,0,1-6.066-6.091v-2.03h69.016v2.03a6.2,6.2,0,0,1-6.2,6.091Zm62.949-12.181H656.741v-6.091a2.028,2.028,0,0,0-2.021-2.03H651.6a18.2,18.2,0,0,0-.719-1.74l2.21-2.22a2.04,2.04,0,0,0,0-2.871l-5.719-5.742a2.015,2.015,0,0,0-2.859,0l-2.211,2.22a18.518,18.518,0,0,0-1.732-.724v-3.136a2.029,2.029,0,0,0-2.022-2.03h-8.087a2.028,2.028,0,0,0-2.022,2.03v3.136a18.5,18.5,0,0,0-1.732.724l-2.211-2.22a2.013,2.013,0,0,0-2.859,0l-5.719,5.742a2.04,2.04,0,0,0,0,2.871l2.21,2.22a18.325,18.325,0,0,0-.719,1.74h-3.124a2.029,2.029,0,0,0-2.022,2.03v6.091H599.992V2540.1a6.085,6.085,0,0,1,6.066-6.09h56.749a6.219,6.219,0,0,1,4.355,1.785,5.982,5.982,0,0,1,1.846,4.3v34.518h0ZM648.65,2548.23a6.07,6.07,0,1,0,6.07-6.09A6.087,6.087,0,0,0,648.65,2548.23Zm-4.307,26.391a10.113,10.113,0,1,0-19.687,0H616.3v-4.061H618.9a2.024,2.024,0,0,0,1.958-1.523,14.019,14.019,0,0,1,1.5-3.619,2.039,2.039,0,0,0-.311-2.467l-1.84-1.848,2.859-2.871,1.84,1.848a2.008,2.008,0,0,0,2.459.312,13.861,13.861,0,0,1,3.6-1.5,2.031,2.031,0,0,0,1.516-1.968v-2.6h4.044v2.6a2.032,2.032,0,0,0,1.516,1.968,13.854,13.854,0,0,1,3.6,1.5,2.007,2.007,0,0,0,2.459-.312l1.84-1.848,2.859,2.871-1.839,1.848a2.039,2.039,0,0,0-.311,2.467,13.984,13.984,0,0,1,1.5,3.619,2.026,2.026,0,0,0,1.959,1.523H652.7v4.061Zm-15.517,0a6.067,6.067,0,1,1,11.347,0Z" transform="translate(-599.992 -2534.013)" fill="#fff"/>
+                            </svg>  
+    
+                            <span class="block py-[25px]">
+                                Web Design
+                            </span>
+                            <p class="font-pop-reg text-[16px] max-w-[262px] pb-[70px] text-center ssm:pb-[25px]">
+                                Lipsum as it is sometimes known
+                                is dummy text used in laying out print,
+    
+                            </p>
+                    </div>
+                    <div class="w-[365px] col-12 col-2xl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 ssm:h-[31rem] ssm:pt-[35px] ssm:w-[31rem] flex flex-col justify-center items-center pt-[80px] mb-0 bg-[#803AFB] font-pop-bold text-[24px] text-white ">
+    
+                            <svg class="w-full" xmlns="http://www.w3.org/2000/svg" width="69.016" height="64.973" viewBox="0 0 69.016 64.973">
+                                <path id="icon" d="M614.281,2598.986a2.03,2.03,0,0,1,0-4.061h6.631l1.348-4.061h24.48l1.348,4.061h6.631a2.03,2.03,0,0,1,0,4.061Zm-8.222-12.182a6.086,6.086,0,0,1-6.066-6.091v-2.03h69.016v2.03a6.2,6.2,0,0,1-6.2,6.091Zm62.949-12.181H656.741v-6.091a2.028,2.028,0,0,0-2.021-2.03H651.6a18.2,18.2,0,0,0-.719-1.74l2.21-2.22a2.04,2.04,0,0,0,0-2.871l-5.719-5.742a2.015,2.015,0,0,0-2.859,0l-2.211,2.22a18.518,18.518,0,0,0-1.732-.724v-3.136a2.029,2.029,0,0,0-2.022-2.03h-8.087a2.028,2.028,0,0,0-2.022,2.03v3.136a18.5,18.5,0,0,0-1.732.724l-2.211-2.22a2.013,2.013,0,0,0-2.859,0l-5.719,5.742a2.04,2.04,0,0,0,0,2.871l2.21,2.22a18.325,18.325,0,0,0-.719,1.74h-3.124a2.029,2.029,0,0,0-2.022,2.03v6.091H599.992V2540.1a6.085,6.085,0,0,1,6.066-6.09h56.749a6.219,6.219,0,0,1,4.355,1.785,5.982,5.982,0,0,1,1.846,4.3v34.518h0ZM648.65,2548.23a6.07,6.07,0,1,0,6.07-6.09A6.087,6.087,0,0,0,648.65,2548.23Zm-4.307,26.391a10.113,10.113,0,1,0-19.687,0H616.3v-4.061H618.9a2.024,2.024,0,0,0,1.958-1.523,14.019,14.019,0,0,1,1.5-3.619,2.039,2.039,0,0,0-.311-2.467l-1.84-1.848,2.859-2.871,1.84,1.848a2.008,2.008,0,0,0,2.459.312,13.861,13.861,0,0,1,3.6-1.5,2.031,2.031,0,0,0,1.516-1.968v-2.6h4.044v2.6a2.032,2.032,0,0,0,1.516,1.968,13.854,13.854,0,0,1,3.6,1.5,2.007,2.007,0,0,0,2.459-.312l1.84-1.848,2.859,2.871-1.839,1.848a2.039,2.039,0,0,0-.311,2.467,13.984,13.984,0,0,1,1.5,3.619,2.026,2.026,0,0,0,1.959,1.523H652.7v4.061Zm-15.517,0a6.067,6.067,0,1,1,11.347,0Z" transform="translate(-599.992 -2534.013)" fill="#fff"/>
+                            </svg>  
+    
+                            <span class="block py-[25px]">
+                                Web Design
+                            </span>
+                            <p class="font-pop-reg text-[16px] max-w-[262px] pb-[70px] text-center ssm:pb-[25px]">
+                                Lipsum as it is sometimes known
+                                is dummy text used in laying out print,
+    
+                            </p>
+                    </div>
+                
+                </div>
+            </div>
+            <div class="pt-[295px]" id="#resume">
+                <div class="text-center flex items-center justify-center flex-col mb-[70px]  ">
+                    <h2 class="font-pop-bold text-[48px] text-main-color">
+                        Resume
+                    </h2>
+                    <p class="font-pop-reg text-[1.6rem] text-main-color tracking-widest mt-[4px] mb-[26px]">
+                        Our formal Bio Details
+                    </p>
+                    <div class="bg-main-color h-[2px] w-[24rem] relative flex items-center justify-center ">
+                        <span class="inline-block absolute w-[39px] h-[11px] top-[-5.5px] bg-main-color rounded-3xl"></span>
+                    </div>
+                </div>
+                <div class="row flex items-center justify-between gap-[0px] xl:justify-center ">
+                    <div class="col-2 xl:hidden  pl-0 flex w-[370px] h-[416px] bg-white shadow-Cshadow shadow-[0px_0px_59px] xl:w-[340px] 2xl:w-[340px] ">
+                        <ul class="z-50 flex gap-[12px] flex-col py-[54px] justify-start relative before:content-[''] before:absolute before:w-[42px] before:bg-main-color before:h-full before:top-0 before:left-0 before:-z-10">
+                            <li class="items-center flex font-pop-semi text-[20px] text-Ctext z-40 pl-[12px] h-[50px] gap-[39px] relative before:absolute before:content-[''] before:w-[47px] before:bg-main-color before:h-[47px] before:-z-10 before:rounded-full before:text-white before:transition-all before:duration-75 before:ease-out resume-list__item cursor-pointer">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="21.999" viewBox="0 0 22 21.999">
+                                    <path id="history_icon" data-name="history icon" d="M472.008,3859H472a11.03,11.03,0,0,1-6.9-2.435,1.064,1.064,0,0,1-.081-1.58l.5-.5a1.067,1.067,0,0,1,.76-.316,1.042,1.042,0,0,1,.655.228A8.079,8.079,0,0,0,472,3856.16a8.161,8.161,0,1,0-5.592-14.108l2.251,2.252a.71.71,0,0,1-.5,1.211h-6.448a.71.71,0,0,1-.709-.71v-6.448a.708.708,0,0,1,1.211-.5l2.191,2.19A10.995,10.995,0,1,1,472.008,3859Zm2.126-7.115a1.06,1.06,0,0,1-.653-.224l-2.9-2.257v-6.017a1.065,1.065,0,0,1,1.064-1.064h.71a1.065,1.065,0,0,1,1.064,1.064v4.628l1.805,1.4a1.067,1.067,0,0,1,.187,1.495l-.436.56A1.06,1.06,0,0,1,474.134,3851.884Z" transform="translate(-461 -3837)" fill="#fff"/>
+                                </svg>
+                                Education
+                            </li>
+                            <li class="flex items-center font-pop-semi text-[20px] text-Ctext z-40 pl-[12px] h-[50px] gap-[39px] relative before:absolute before:content-[''] before:w-[47px] before:bg-main-color before:h-[47px] before:-z-10 before:rounded-full before:text-white before:transition-all before:duration-75 before:ease-out resume-list__item cursor-pointer">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="21.999" viewBox="0 0 22 21.999">
+                                    <path id="history_icon" data-name="history icon" d="M472.008,3859H472a11.03,11.03,0,0,1-6.9-2.435,1.064,1.064,0,0,1-.081-1.58l.5-.5a1.067,1.067,0,0,1,.76-.316,1.042,1.042,0,0,1,.655.228A8.079,8.079,0,0,0,472,3856.16a8.161,8.161,0,1,0-5.592-14.108l2.251,2.252a.71.71,0,0,1-.5,1.211h-6.448a.71.71,0,0,1-.709-.71v-6.448a.708.708,0,0,1,1.211-.5l2.191,2.19A10.995,10.995,0,1,1,472.008,3859Zm2.126-7.115a1.06,1.06,0,0,1-.653-.224l-2.9-2.257v-6.017a1.065,1.065,0,0,1,1.064-1.064h.71a1.065,1.065,0,0,1,1.064,1.064v4.628l1.805,1.4a1.067,1.067,0,0,1,.187,1.495l-.436.56A1.06,1.06,0,0,1,474.134,3851.884Z" transform="translate(-461 -3837)" fill="#fff"/>
+                                </svg>
+                                Education
+                            </li>
+                            <li class="flex items-center font-pop-semi text-[20px] text-Ctext z-40 pl-[12px] h-[50px] gap-[39px] relative before:absolute before:content-[''] before:w-[47px] before:bg-main-color before:h-[47px] before:-z-10 before:rounded-full before:text-white before:transition-all before:duration-75 before:ease-out resume-list__item cursor-pointer">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="21.999" viewBox="0 0 22 21.999">
+                                    <path id="history_icon" data-name="history icon" d="M472.008,3859H472a11.03,11.03,0,0,1-6.9-2.435,1.064,1.064,0,0,1-.081-1.58l.5-.5a1.067,1.067,0,0,1,.76-.316,1.042,1.042,0,0,1,.655.228A8.079,8.079,0,0,0,472,3856.16a8.161,8.161,0,1,0-5.592-14.108l2.251,2.252a.71.71,0,0,1-.5,1.211h-6.448a.71.71,0,0,1-.709-.71v-6.448a.708.708,0,0,1,1.211-.5l2.191,2.19A10.995,10.995,0,1,1,472.008,3859Zm2.126-7.115a1.06,1.06,0,0,1-.653-.224l-2.9-2.257v-6.017a1.065,1.065,0,0,1,1.064-1.064h.71a1.065,1.065,0,0,1,1.064,1.064v4.628l1.805,1.4a1.067,1.067,0,0,1,.187,1.495l-.436.56A1.06,1.06,0,0,1,474.134,3851.884Z" transform="translate(-461 -3837)" fill="#fff"/>
+                                </svg>
+                                Education
+                            </li>
+                            <li class="flex items-center font-pop-semi text-[20px] text-Ctext z-40 pl-[12px] h-[50px] gap-[39px] relative before:absolute before:content-[''] before:w-[47px] before:bg-main-color before:h-[47px] before:-z-10 before:rounded-full before:text-white before:transition-all before:duration-75 before:ease-out resume-list__item cursor-pointer">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="21.999" viewBox="0 0 22 21.999">
+                                    <path id="history_icon" data-name="history icon" d="M472.008,3859H472a11.03,11.03,0,0,1-6.9-2.435,1.064,1.064,0,0,1-.081-1.58l.5-.5a1.067,1.067,0,0,1,.76-.316,1.042,1.042,0,0,1,.655.228A8.079,8.079,0,0,0,472,3856.16a8.161,8.161,0,1,0-5.592-14.108l2.251,2.252a.71.71,0,0,1-.5,1.211h-6.448a.71.71,0,0,1-.709-.71v-6.448a.708.708,0,0,1,1.211-.5l2.191,2.19A10.995,10.995,0,1,1,472.008,3859Zm2.126-7.115a1.06,1.06,0,0,1-.653-.224l-2.9-2.257v-6.017a1.065,1.065,0,0,1,1.064-1.064h.71a1.065,1.065,0,0,1,1.064,1.064v4.628l1.805,1.4a1.067,1.067,0,0,1,.187,1.495l-.436.56A1.06,1.06,0,0,1,474.134,3851.884Z" transform="translate(-461 -3837)" fill="#fff"/>
+                                </svg>
+                                Education
+                            </li>
+                            <li class="flex items-center font-pop-semi text-[20px] text-Ctext z-40 pl-[12px] h-[50px] gap-[39px] relative before:absolute before:content-[''] before:w-[47px] before:bg-main-color before:h-[47px] before:-z-10 before:rounded-full before:text-white before:transition-all before:duration-75 before:ease-out resume-list__item cursor-pointer">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="21.999" viewBox="0 0 22 21.999">
+                                    <path id="history_icon" data-name="history icon" d="M472.008,3859H472a11.03,11.03,0,0,1-6.9-2.435,1.064,1.064,0,0,1-.081-1.58l.5-.5a1.067,1.067,0,0,1,.76-.316,1.042,1.042,0,0,1,.655.228A8.079,8.079,0,0,0,472,3856.16a8.161,8.161,0,1,0-5.592-14.108l2.251,2.252a.71.71,0,0,1-.5,1.211h-6.448a.71.71,0,0,1-.709-.71v-6.448a.708.708,0,0,1,1.211-.5l2.191,2.19A10.995,10.995,0,1,1,472.008,3859Zm2.126-7.115a1.06,1.06,0,0,1-.653-.224l-2.9-2.257v-6.017a1.065,1.065,0,0,1,1.064-1.064h.71a1.065,1.065,0,0,1,1.064,1.064v4.628l1.805,1.4a1.067,1.067,0,0,1,.187,1.495l-.436.56A1.06,1.06,0,0,1,474.134,3851.884Z" transform="translate(-461 -3837)" fill="#fff"/>
+                                </svg>
+                                Education
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="col-12 col-xl-8 space-y-10 h-[] border-l-2 border-main-color pl-0 xl:border-0 xl:flex xl:justify-center xl:flex-col xl:p-0 minxl:h-[42rem] ">
+                        <div class="flex justify-center items-center w-[356px] h-[50px] font-pop-semi gap-[9px] mx-auto my-0 bg-main-color text-white rounded-[3rem] mb-[4px] minxl:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="21.999" viewBox="0 0 22 21.999">
+                                <path id="Icon_awesome-user-graduate" data-name="Icon awesome-user-graduate" d="M463.357,3794a2.225,2.225,0,0,1-2.357-2.062v-.412c0-3.1,2.8-5.615,6.315-5.748l4.685,4.1,4.686-4.1c3.511.133,6.315,2.646,6.315,5.748v.412a2.225,2.225,0,0,1-2.358,2.062Zm2.358-15.124a4.918,4.918,0,0,1,.687-2.449l-3.241-.683V3778a.935.935,0,0,1,.045,1.718l.766,2.677a.45.45,0,0,1-.373.6h-2.053a.451.451,0,0,1-.373-.6l.766-2.677a.934.934,0,0,1,.044-1.718v-2.51l-.314-.064c-.888-.189-.888-1.169,0-1.358l9.36-1.973a4.839,4.839,0,0,1,1.95,0l9.349,1.977c.894.189.894,1.165,0,1.354l-4.728,1a4.87,4.87,0,0,1,.687,2.449c0,3.038-2.814,5.5-6.286,5.5S465.714,3781.912,465.714,3778.875Z" transform="translate(-461 -3772)" fill="#fff"/>
+                            </svg>                              
+                            Education
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="21.999" viewBox="0 0 22 21.999">
+                                <path id="Icon_awesome-user-graduate" data-name="Icon awesome-user-graduate" d="M463.357,3794a2.225,2.225,0,0,1-2.357-2.062v-.412c0-3.1,2.8-5.615,6.315-5.748l4.685,4.1,4.686-4.1c3.511.133,6.315,2.646,6.315,5.748v.412a2.225,2.225,0,0,1-2.358,2.062Zm2.358-15.124a4.918,4.918,0,0,1,.687-2.449l-3.241-.683V3778a.935.935,0,0,1,.045,1.718l.766,2.677a.45.45,0,0,1-.373.6h-2.053a.451.451,0,0,1-.373-.6l.766-2.677a.934.934,0,0,1,.044-1.718v-2.51l-.314-.064c-.888-.189-.888-1.169,0-1.358l9.36-1.973a4.839,4.839,0,0,1,1.95,0l9.349,1.977c.894.189.894,1.165,0,1.354l-4.728,1a4.87,4.87,0,0,1,.687,2.449c0,3.038-2.814,5.5-6.286,5.5S465.714,3781.912,465.714,3778.875Z" transform="translate(-461 -3772)" fill="#fff"/>
+                            </svg>                              
+                        </div>
+                        <div class="flex flex-col relative pl-[33.5px] before:absolute before:content-[''] before:w-[19px] before:h-[19px] before:bg-main-color before:rounded-full before:top-[3px] before:left-[-9.5px]">
+                            <div class="sm:flex-wrap ssm:gap-x-[139px] ssm:gap-y-[6px] titleD flex items-center justify-between ">
+                                <h4 class=" font-pop-semi text-[20px] text-BGorange  ">
+                                    Envanto University
+                                </h4>
+                                <span class="flex items-center justify-center bg-BGorange text-white text-center text-[16px] font-pop-reg rounded-3xl w-[110px] h-[30px]">
+                                    2010-2014
+                                </span>
+                            </div>
+                            <span class="block font-pop-semi text-[16px] mb-[7px] mt-[14px]">
+                                B.sc in Computer Engineer
+                            </span>
+                            <p class="text-Ctext opacity-95">
+                                
+                                Reference site about Lorem Ipsum, giving information on its origins, as well as a 
+                                random Lipsum generator.
+                            </p>
+                        </div>
+                        <div class="flex flex-col relative pl-[33.5px] before:absolute before:content-[''] before:w-[19px] before:h-[19px] before:bg-main-color before:rounded-full before:top-[3px] before:left-[-9.5px]">
+                            <div class="titleD flex items-center justify-between">
+                                <h4 class=" font-pop-semi text-[20px] text-BGorange  ">
+                                    Envanto University
+                                </h4>
+                                <span class="flex items-center justify-center bg-BGorange text-white text-center text-[16px] font-pop-reg rounded-3xl w-[110px] h-[30px]">
+                                    2010-2014
+                                </span>
+                            </div>
+                            <span class="block font-pop-semi text-[16px] mb-[7px] mt-[14px]">
+                                B.sc in Computer Engineer
+                            </span>
+                            <p class="text-Ctext opacity-95">
+                                
+                                Reference site about Lorem Ipsum, giving information on its origins, as well as a 
+                                random Lipsum generator.
+                            </p>
+                        </div>
+                        <div class="flex flex-col relative pl-[33.5px] before:absolute before:content-[''] before:w-[19px] before:h-[19px] before:bg-main-color before:rounded-full before:top-[3px] before:left-[-9.5px]">
+                            <div class="titleD flex items-center justify-between">
+                                <h4 class=" font-pop-semi text-[20px] text-BGorange  ">
+                                    Envanto University
+                                </h4>
+                                <span class="flex items-center justify-center bg-BGorange text-white text-center text-[16px] font-pop-reg rounded-3xl w-[110px] h-[30px]">
+                                    2010-2014
+                                </span>
+                            </div>
+                            <span class="block font-pop-semi text-[16px] mb-[7px] mt-[14px]">
+                                B.sc in Computer Engineer
+                            </span>
+                            <p class="text-Ctext opacity-95">
+                                
+                                Reference site about Lorem Ipsum, giving information on its origins, as well as a 
+                                random Lipsum generator.
+                            </p>
+                        </div>
+
+
+
+
+                    </div>
+                
+                </div>
+                
+            </div>
+            <div class="pt-[300px]" id="#portfolio">
+                <div class="text-center flex items-center justify-center flex-col mb-[70px]">
+                    <h2 class="font-pop-bold text-[48px] text-main-color">
+                        Portfolio
+                    </h2>
+                    <p class="font-pop-reg text-[1.6rem] text-main-color tracking-widest mt-[4px] mb-[26px]">
+                        Check in Our Latest Works
+                    </p>
+                    <div class="bg-main-color h-[2px] w-[24rem] relative flex items-center justify-center ">
+                        <span class="inline-block absolute w-[39px] h-[11px] top-[-5.5px] bg-main-color rounded-3xl"></span>
+                    </div>
+                </div>
+                
+                <ul class="flex justify-center items-center gap-[30px] flex-wrap"> 
+
+                    <li class="flex justify-center relative items-center text-[16px] cursor-pointer transition-all duration-150 ease-in before:content-[''] before:absolute navport__item">
+                        All Work
+                    </li>
+                    <li class="h-[50] flex justify-center items-center relative font-pop-reg text-[16px] cursor-pointer transition-all duration-150 ease-in before:content-[''] before:absolute navport__item">
+                        Illustration
+                    </li>
+                    <li class="h-[50] flex justify-center items-center relative font-pop-reg text-[16px] cursor-pointer transition-all duration-150 ease-in before:content-[''] before:absolute navport__item">
+                        Animation
+                    </li>
+                    <li class="h-[50] flex justify-center items-center relative font-pop-reg text-[16px] cursor-pointer transition-all duration-150 ease-in before:content-[''] before:absolute navport__item">
+                        App UI
+                    </li>
+                    <li class="h-[50] flex justify-center items-center relative font-pop-reg text-[16px] cursor-pointer transition-all duration-150 ease-in before:content-[''] before:absolute navport__item">
+                        Web UI
+                    </li>
+                    <li class="h-[50] flex justify-center items-center relative font-pop-reg text-[16px] cursor-pointer transition-all duration-150 ease-in before:content-[''] before:absolute navport__item">
+                        Social Media
+                    </li>
+                    <li class="h-[50] flex justify-center items-center relative font-pop-reg text-[16px] cursor-pointer transition-all duration-150 ease-in before:content-[''] before:absolute navport__item">
+                        Print Design
+                    </li>
+                </ul>
+                <div class="swiperContent mt-[44px]">
+                    <div class="swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper pb-[5rem]">
+                          <!-- Slides -->
+                          <div class="swiper-slide">
+                              <img src="./images/portfolio-2.jpg" alt="" class="w-full ">
+                          </div>
+                          <div class="swiper-slide">
+                              <img src="./images/portfolio-2.jpg" alt="" class="w-full ">
+                          </div>
+                          <div class="swiper-slide">
+                              <img src="./images/portfolio-2.jpg" alt="" class="w-full ">
+                          </div>
+                        
+                        </div>
+                        <div class="swiper-pagination !mt-[17px] !bottom-0"></div>
+                    </div>    
+                </div>
+
+                
+            </div>
+        </div>
+        <div class="pt-[100px] pb-[150px] bg-white shadow-normal shadow-mainShadow w-full -skew-y-[6deg] mt-[85px]" id="price">
+            <div class="container skew-y-[6deg]">
+                <div class="text-center flex items-center justify-center flex-col mb-[70px] ">
+                    <h2 class="font-pop-bold text-[48px] text-main-color">
+                        Pricing
+                    </h2>
+                    <p class="font-pop-reg text-[1.6rem] text-Ctext tracking-widest mt-[11px] mb-[28px]">
+                        Check our Services package
+                    </p>
+                    <div class="bg-main-color h-[2px] w-[24rem] relative flex items-center justify-center ">
+                        <span class="inline-block absolute w-[39px] h-[11px] top-[-5.5px] bg-main-color rounded-3xl"></span>
+                    </div>
+                </div>
+                <!-- Important Tip:
+                     Never use any flexbox Property in row Elements!!!!  
+                -->
+                <div class="row ">
+                    <div class="col-12 col-xl-4 col-lg-4 col-md-6 col-sm-6 ">
+                        <div class="flex justify-center items-center flex-col text-white text-center shadow-normal bg-white">
+                            <div class="bg-BGviolet w-full">
+                                <h4 class="text-4xl font-pop-semi pt-9">Basic</h4>
+                                <span class="block text-2xl font-pop-semi">70$</span>
+                                <span class="block text-base pt-3 pb-12">Only PSD Design</span>    
+                            </div>
+                            
+                            <ul class="flex justify-center items-start flex-col text-base pt-16 gap-[25.75px]">
+                                    <li class="flex justify-center items-center gap-[16px] text-Ctext">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="14.058" height="11.774" viewBox="0 0 14.058 11.774">
+                                            <path id="Icon_material-done" data-name="Icon material-done" d="M555.037,6123.945l-3.028-3.231L551,6121.79l4.037,4.31,8.651-9.234-1.009-1.077Z" transform="translate(-550.315 -6115.057)" fill="#333" stroke="#333" stroke-width="1"/>
+                                        </svg>
+                                        Graphic Design
+                                    </li>
+                                    <li class="flex justify-center items-center gap-[16px] text-Ctext">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="14.058" height="11.774" viewBox="0 0 14.058 11.774">
+                                            <path id="Icon_material-done" data-name="Icon material-done" d="M555.037,6123.945l-3.028-3.231L551,6121.79l4.037,4.31,8.651-9.234-1.009-1.077Z" transform="translate(-550.315 -6115.057)" fill="#333" stroke="#333" stroke-width="1"/>
+                                        </svg>
+                                        Web Design  
+                                    </li>
+                                    <li class="flex justify-center items-center gap-[16px] text-Ctext">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="14.058" height="11.774" viewBox="0 0 14.058 11.774">
+                                            <path id="Icon_material-done" data-name="Icon material-done" d="M555.037,6123.945l-3.028-3.231L551,6121.79l4.037,4.31,8.651-9.234-1.009-1.077Z" transform="translate(-550.315 -6115.057)" fill="#333" stroke="#333" stroke-width="1"/>
+                                        </svg>
+                                        Html and Css 
+                                    </li>
+                                    <li class="flex justify-center items-center gap-[16px] text-Ctext">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="14.058" height="11.774" viewBox="0 0 14.058 11.774">
+                                            <path id="Icon_material-done" data-name="Icon material-done" d="M555.037,6123.945l-3.028-3.231L551,6121.79l4.037,4.31,8.651-9.234-1.009-1.077Z" transform="translate(-550.315 -6115.057)" fill="#333" stroke="#333" stroke-width="1"/>
+                                        </svg>
+                                        UI/UX Design
+                                    </li>
+                                    <li class="flex justify-center items-center gap-[16px] text-Ctext">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="14.058" height="11.774" viewBox="0 0 14.058 11.774">
+                                            <path id="Icon_material-done" data-name="Icon material-done" d="M555.037,6123.945l-3.028-3.231L551,6121.79l4.037,4.31,8.651-9.234-1.009-1.077Z" transform="translate(-550.315 -6115.057)" fill="#333" stroke="#333" stroke-width="1"/>
+                                        </svg>
+                                        SEO Optimize  
+                                    </li>
+                                    <li class="flex justify-center items-center gap-[16px] text-Ctext">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="14.058" height="11.774" viewBox="0 0 14.058 11.774">
+                                            <path id="Icon_material-done" data-name="Icon material-done" d="M555.037,6123.945l-3.028-3.231L551,6121.79l4.037,4.31,8.651-9.234-1.009-1.077Z" transform="translate(-550.315 -6115.057)" fill="#333" stroke="#333" stroke-width="1"/>
+                                        </svg>
+                                        Business Develop 
+                                    </li>
+    
+                            </ul>
+                            <a href="" class="block mt-[28px] mb-[45px] rounded-[3rem] text-center w-[200px] py-[18px] px-[49px] bg-BGviolet font-pop-semi">Choose Plan</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-xl-4 col-lg-4 col-md-6 col-sm-6 ">
+                        <div class="flex justify-center items-center flex-col text-white text-center shadow-normal bg-white">
+                            <div class="bg-BGviolet w-full">
+                                <h4 class="text-4xl font-pop-semi pt-9">Basic</h4>
+                                <span class="block text-2xl font-pop-semi">70$</span>
+                                <span class="block text-base pt-3 pb-12">Only PSD Design</span>    
+                            </div>
+                            
+                            <ul class="flex justify-center items-start flex-col text-base pt-16 gap-[25.75px]">
+                                    <li class="flex justify-center items-center gap-[16px] text-Ctext">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="14.058" height="11.774" viewBox="0 0 14.058 11.774">
+                                            <path id="Icon_material-done" data-name="Icon material-done" d="M555.037,6123.945l-3.028-3.231L551,6121.79l4.037,4.31,8.651-9.234-1.009-1.077Z" transform="translate(-550.315 -6115.057)" fill="#333" stroke="#333" stroke-width="1"/>
+                                        </svg>
+                                        Graphic Design
+                                    </li>
+                                    <li class="flex justify-center items-center gap-[16px] text-Ctext">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="14.058" height="11.774" viewBox="0 0 14.058 11.774">
+                                            <path id="Icon_material-done" data-name="Icon material-done" d="M555.037,6123.945l-3.028-3.231L551,6121.79l4.037,4.31,8.651-9.234-1.009-1.077Z" transform="translate(-550.315 -6115.057)" fill="#333" stroke="#333" stroke-width="1"/>
+                                        </svg>
+                                        Web Design  
+                                    </li>
+                                    <li class="flex justify-center items-center gap-[16px] text-Ctext">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="14.058" height="11.774" viewBox="0 0 14.058 11.774">
+                                            <path id="Icon_material-done" data-name="Icon material-done" d="M555.037,6123.945l-3.028-3.231L551,6121.79l4.037,4.31,8.651-9.234-1.009-1.077Z" transform="translate(-550.315 -6115.057)" fill="#333" stroke="#333" stroke-width="1"/>
+                                        </svg>
+                                        Html and Css 
+                                    </li>
+                                    <li class="flex justify-center items-center gap-[16px] text-Ctext">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="14.058" height="11.774" viewBox="0 0 14.058 11.774">
+                                            <path id="Icon_material-done" data-name="Icon material-done" d="M555.037,6123.945l-3.028-3.231L551,6121.79l4.037,4.31,8.651-9.234-1.009-1.077Z" transform="translate(-550.315 -6115.057)" fill="#333" stroke="#333" stroke-width="1"/>
+                                        </svg>
+                                        UI/UX Design
+                                    </li>
+                                    <li class="flex justify-center items-center gap-[16px] text-Ctext">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="14.058" height="11.774" viewBox="0 0 14.058 11.774">
+                                            <path id="Icon_material-done" data-name="Icon material-done" d="M555.037,6123.945l-3.028-3.231L551,6121.79l4.037,4.31,8.651-9.234-1.009-1.077Z" transform="translate(-550.315 -6115.057)" fill="#333" stroke="#333" stroke-width="1"/>
+                                        </svg>
+                                        SEO Optimize  
+                                    </li>
+                                    <li class="flex justify-center items-center gap-[16px] text-Ctext">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="14.058" height="11.774" viewBox="0 0 14.058 11.774">
+                                            <path id="Icon_material-done" data-name="Icon material-done" d="M555.037,6123.945l-3.028-3.231L551,6121.79l4.037,4.31,8.651-9.234-1.009-1.077Z" transform="translate(-550.315 -6115.057)" fill="#333" stroke="#333" stroke-width="1"/>
+                                        </svg>
+                                        Business Develop 
+                                    </li>
+    
+                            </ul>
+                            <a href="" class="block mt-[28px] mb-[45px] rounded-[3rem] text-center w-[200px] py-[18px] px-[49px] bg-BGviolet font-pop-semi">Choose Plan</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-xl-4 col-lg-4 col-md-6 col-sm-6 ">
+                        <div class="flex justify-center items-center flex-col text-white text-center shadow-normal bg-white">
+                            <div class="bg-BGviolet w-full">
+                                <h4 class="text-4xl font-pop-semi pt-9">Basic</h4>
+                                <span class="block text-2xl font-pop-semi">70$</span>
+                                <span class="block text-base pt-3 pb-12">Only PSD Design</span>    
+                            </div>
+                            
+                            <ul class="flex justify-center items-start flex-col text-base pt-16 gap-[25.75px]">
+                                    <li class="flex justify-center items-center gap-[16px] text-Ctext">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="14.058" height="11.774" viewBox="0 0 14.058 11.774">
+                                            <path id="Icon_material-done" data-name="Icon material-done" d="M555.037,6123.945l-3.028-3.231L551,6121.79l4.037,4.31,8.651-9.234-1.009-1.077Z" transform="translate(-550.315 -6115.057)" fill="#333" stroke="#333" stroke-width="1"/>
+                                        </svg>
+                                        Graphic Design
+                                    </li>
+                                    <li class="flex justify-center items-center gap-[16px] text-Ctext">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="14.058" height="11.774" viewBox="0 0 14.058 11.774">
+                                            <path id="Icon_material-done" data-name="Icon material-done" d="M555.037,6123.945l-3.028-3.231L551,6121.79l4.037,4.31,8.651-9.234-1.009-1.077Z" transform="translate(-550.315 -6115.057)" fill="#333" stroke="#333" stroke-width="1"/>
+                                        </svg>
+                                        Web Design  
+                                    </li>
+                                    <li class="flex justify-center items-center gap-[16px] text-Ctext">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="14.058" height="11.774" viewBox="0 0 14.058 11.774">
+                                            <path id="Icon_material-done" data-name="Icon material-done" d="M555.037,6123.945l-3.028-3.231L551,6121.79l4.037,4.31,8.651-9.234-1.009-1.077Z" transform="translate(-550.315 -6115.057)" fill="#333" stroke="#333" stroke-width="1"/>
+                                        </svg>
+                                        Html and Css 
+                                    </li>
+                                    <li class="flex justify-center items-center gap-[16px] text-Ctext">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="14.058" height="11.774" viewBox="0 0 14.058 11.774">
+                                            <path id="Icon_material-done" data-name="Icon material-done" d="M555.037,6123.945l-3.028-3.231L551,6121.79l4.037,4.31,8.651-9.234-1.009-1.077Z" transform="translate(-550.315 -6115.057)" fill="#333" stroke="#333" stroke-width="1"/>
+                                        </svg>
+                                        UI/UX Design
+                                    </li>
+                                    <li class="flex justify-center items-center gap-[16px] text-Ctext">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="14.058" height="11.774" viewBox="0 0 14.058 11.774">
+                                            <path id="Icon_material-done" data-name="Icon material-done" d="M555.037,6123.945l-3.028-3.231L551,6121.79l4.037,4.31,8.651-9.234-1.009-1.077Z" transform="translate(-550.315 -6115.057)" fill="#333" stroke="#333" stroke-width="1"/>
+                                        </svg>
+                                        SEO Optimize  
+                                    </li>
+                                    <li class="flex justify-center items-center gap-[16px] text-Ctext">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="14.058" height="11.774" viewBox="0 0 14.058 11.774">
+                                            <path id="Icon_material-done" data-name="Icon material-done" d="M555.037,6123.945l-3.028-3.231L551,6121.79l4.037,4.31,8.651-9.234-1.009-1.077Z" transform="translate(-550.315 -6115.057)" fill="#333" stroke="#333" stroke-width="1"/>
+                                        </svg>
+                                        Business Develop 
+                                    </li>
+    
+                            </ul>
+                            <a href="" class="block mt-[28px] mb-[45px] rounded-[3rem] text-center w-[200px] py-[18px] px-[49px] bg-BGviolet font-pop-semi">Choose Plan</a>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <!-- <div class="header-shape">
+            <svg class="header-shape__shape" xmlns="http://www.w3.org/2000/svg" width="2165.237" height="361.824" viewBox="0 0 2165.237 361.824">
+                <path id="Shape" d="M-27.061,842.561s136.212,230.682,399.849,188.94,252.483-137.226,544.85-30.757,358.107,28.729,547.046-37.349,358.107,118.637,576.45,8.788,0,232.2,0,232.2L36.82,1201.005Z" transform="translate(27.061 -842.561)" fill="#05AFE6"/>
+            </svg>
+        </div> -->
+
+    </main>
+
+    <footer class="footer">
+        
+    </footer>
+    <script src="js/swiper-bundle.min.js"></script>
+
+
+    <!-- <script type="text/javascript">
+        const swiper = new Swiper('.swiper',{
+            pagination: {
+                el: '.swiper-pagination',
+            },
+        })
+    </script> -->
+    <script src="./js/app.js"></script>
+    <script src="./js/tsw.js"></script>
+</body>
+
+
+</html>

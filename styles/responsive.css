@@ -1,0 +1,113 @@
+@media (max-width: 1400px) {
+    .nav-menu{
+        gap: 4rem;
+    }
+    .home__img{
+        width: 45rem;
+        height: 45rem;
+        background-size: 63rem;
+        background-position-x: -156px;
+    }
+
+
+}
+@media (max-width: 1200px) {
+    .nav-menu{
+        gap: 3.5rem;
+    }
+    .main-logo{
+        font-size: 6rem;
+    }
+    .home__img{
+        width: 43rem;
+        height: 43rem;
+    }
+
+}
+
+@media (max-width: 992px) {
+    /* 
+    نکته بسیار مهم در ریسپانسیو
+    قشنگ نیست منو همبرگری در سایز 768 پیکسلی بالاتر دیده شود،
+    پس در صورت نیاز اندازه فونت ها و عکس ها و غیره را کاهش میدهیم.
+    */
+    .nav-menu{
+        gap: 2rem;
+    }
+    .main-logo{
+        font-size: 5rem;
+    }
+    .home__img{
+        width: 52rem;
+        height: 52rem;
+        background-size: 73rem;
+        background-position-x: -175px;
+    }
+    .home-contents{
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+    .home__btns{
+        justify-content: center;
+    }
+    .home-set{
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .nav-mobile{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    .nav{
+        display: none;
+    }
+    .home__img{
+        width: 45rem;
+        height: 45rem;
+        background-size: 65rem;
+        background-position-x: -166px;
+    }
+
+}
+
+
+
+@media(min-width: 769px){
+    .nav__mobile{
+        /* display: none; */
+    }
+    .nav-mobile{
+        display: none;
+    }
+}
+
+@media(max-width:576px){
+    .home__img{
+        height: 41rem;
+        width: 41rem;
+        background-position: -144px;
+        background-size: 58rem;
+    }
+}
+@media(max-width:462px){
+    .home__img{
+        height: 33rem;
+        width: 33rem;
+        background-position: -107px;
+        background-size: 44rem;
+    }
+}
+@media(max-width:382px){
+    .home__img{
+        height: 31rem;
+        width: 31rem;
+        background-position: -107px;
+        background-size: 44rem;
+    }
+}
+
+
