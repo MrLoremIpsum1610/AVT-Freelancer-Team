@@ -6,28 +6,7 @@ const NavPortfolio = document.querySelectorAll('.navport__item')
 
 let navOpen = false;
 let MenuLinks = false;
-let titleScreen = document.querySelector('.header');
-titleScreen=document.querySelector('.main-logo');
-console.log(titleScreen)
-titleScreen.style.color = 'black';
-titleScreen.innerHTML = 'GTI';
 let list = document.querySelectorAll('.nav-items');
-console.log(list)
-list[4].style.fontSize = "10px";
-list[4].innerHTML = '0';
-
-
-let counter = 0;
-function updateCounter() {
-    if (counter <= 9999) {
-        list[4].innerHTML = counter;
-        console.log(counter);
-        counter++;
-        setTimeout(updateCounter, 1); // تاخیر 100 میلی ثانیه
-    }
-}
-//exc
-updateCounter()
 
 
 ;
@@ -100,23 +79,3 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-// var username = prompt("Enter ur username");
-// var pass = prompt("Enter ur password");
-
-// var passwords = "123456";
-// var usernames = "admin";
-
-// var myfunc = function(){
-//     if((username == usernames) && (isNaN(username)==false)&&(username.lenth >= 3)){
-//         if((pass == passwords) && (isNaN(pass)== false)&&(pass.lenth > 5)){
-//             console.log("OK")
-//         }
-//         else{
-//             console.log("Password is incorrect/password must have more 5 charachters")
-//         }
-//     }
-//     else{
-//         console.log("Username is incorrect/username must have 5 charachters or more");
-//     }
-// }
-// myfunc();
