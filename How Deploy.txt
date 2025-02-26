@@ -1,0 +1,11 @@
+Do ur change in the project file
+after completing,
+go to AVT-Freelancer.... (main Repo File)
+Copy and replace new Changes
+then call git in command
+af first of all - git status
+then git add .
+then git commit -m 'fdohdj'
+finally git push
+
+waiting for updating new changes...
